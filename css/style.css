@@ -1,0 +1,58 @@
+.write_date{
+	padding: 10px;
+	border: 1px solid #999;
+	margin: 10px 0;
+	width: 100%;
+}
+
+tbody.scrollBody{
+  display:block;
+}
+tbody.scrollBody{
+  overflow-y:scroll;
+  height:300px;
+}
+
+td,th{
+  table-layout:fixed;
+}
+
+.write_date th{
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+	background:#3BDF33;
+	color:#fff;
+}
+
+.write_date tr{
+	background: #fff;
+	transition:0.5s;
+}
+
+.write_date td{
+	padding: 0;
+	width: 15%;
+	text-align: center;
+}
+
+.write_date td a{
+	text-align: center;
+	padding: 0;
+	text-decoration: none;
+	padding:15px;
+	display: block;
+	transition:0.5s;
+}
+.write_date td a:hover{
+	background:#666;
+	color:#fff;
+}
+
+.write_date tr:hover {
+	background:#ddd;
+}
+
+
+.highcharts-container{
+	margin:20px auto;
+}
